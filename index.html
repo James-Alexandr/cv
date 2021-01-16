@@ -12,6 +12,13 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+  var siteWidth = 1280;
+var scale = screen.width /siteWidth;
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+
+  </script>
   <div class="top-container">
     <img  class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I am James.</h1>

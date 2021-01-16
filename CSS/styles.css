@@ -74,7 +74,19 @@ hr {
 
 }
 
+a{
+color: #11999E;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+font-weight: bold;
+font-size: 18px;
+text-decoration: none;
 
+
+}
+a:hover{
+  color: #eaf6f6;
+}
 
 /***************************classess******************************/
 
@@ -102,9 +114,10 @@ hr {
 .middle-container{
 margin: 100px 0;
 }
-.bottom-container{
-  color: #66bfbf;
 
+.bottom-container{
+  background-color: #66bfbf;
+padding: 50px 0 20px;
 }
 .pro{
   text-decoration: underline;
@@ -182,4 +195,9 @@ float: left;
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.copyright{
+  color: #eaf6f6;
+  padding: 20px 0;
 }

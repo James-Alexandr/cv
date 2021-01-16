@@ -1,8 +1,12 @@
 
+
+/******************* HTML elements ************************/
+
 body{
 margin: 0;
 text-align: center;
 font-family: 'Merriweather', serif;
+color: #40514E;
 /*
 or
 
@@ -41,6 +45,7 @@ h2{
   font-size: 2.5rem;
   font-weight: bold;
   color: #66bfbf;
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -49,19 +54,41 @@ h3{
 }
 
 
+/*paragraphs*/
 
-/*classess*/
+p{
+  line-height: 2;
+}
+
+/*Lines*/
+
+hr {
+  border-style: dotted;
+  border-width: 8px;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-color: #EAF6F6;
+  width: 10%;
+  margin: 65px auto 65px auto;
+
+}
+
+
+
+/***************************classess******************************/
+
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
+
 }
 .skill-rowWings{
   width: 45%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
+
 }
 
 .top-container{
@@ -71,10 +98,12 @@ h3{
     line-height: 1;
 
 }
-.middle-container{
 
+.middle-container{
+margin: 100px 0;
 }
 .bottom-container{
+  color: red;
 
 }
 .pro{
@@ -93,14 +122,18 @@ h3{
 
 }
 .Intro{
-  margin-top: 0px;
-  line-height: 2;
+  margin-top: 0;
 
+
+}
+.contact-message{
+  width: 50%;
+  margin: 40px auto 60px;
 }
 .profile{
   margin: 60px auto 0 auto;
   width: 50%;
-  line-height: 0;
+
 
 }
 .profile-image{
@@ -122,5 +155,31 @@ float: left;
   height: 150px;
   float: right;
 
+}
 
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+  background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }

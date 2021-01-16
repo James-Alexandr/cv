@@ -92,12 +92,20 @@ h3{
   bottom: 300px;
 
 }
+.Intro{
+  margin-top: 0px;
+  line-height: 2;
+
+}
 .profile{
-  margin: 10px auto 0 auto;
+  margin: 60px auto 0 auto;
   width: 50%;
+  line-height: 0;
+
 }
 .profile-image{
-  margin: 20px auto 0 auto;
+  margin: auto;
+
 }
 
 .middle-image{

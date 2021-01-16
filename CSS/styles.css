@@ -55,9 +55,15 @@ h3{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-
-
+  line-height: 2;
 }
+.skill-rowWings{
+  width: 45%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .top-container{
     background-color: #e4f9f5;
     position: relative;
@@ -88,18 +94,25 @@ h3{
 }
 .profile{
   margin: 10px auto 0 auto;
+  width: 50%;
+}
+.profile-image{
+  margin: 20px auto 0 auto;
 }
 
 .middle-image{
 height: 150px;
-
-
+float: left;
 
 }
 .bottom-image{
   height: 150px;
+  float: left;
 
-
+}
+.third-image{
+  height: 150px;
+  float: right;
 
 
 }

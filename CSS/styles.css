@@ -90,6 +90,9 @@ a:hover{
 
 /***************************classess******************************/
 
+.container-fluid{
+  padding: 3% 15%;
+}
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;

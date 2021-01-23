@@ -15,7 +15,7 @@
   .skill-row{
     width: 100%;
     margin: 0;
-     
+
 
   }
   .skill-rowWings{
@@ -46,20 +46,20 @@
 height: 150px;
 float: none;
 text-align: center;
-padding-bottom: 5px;
+margin-bottom: 5px;
 }
 .bottom-image{
   height: 150px;
   float: none;
   text-align: center;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 
 }
 .third-image{
   height: 150px;
   float: none;
   text-align: center;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 
 }
 

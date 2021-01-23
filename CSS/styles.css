@@ -2,7 +2,8 @@
 @media only screen
     and (device-width : 414px)
     and (device-height : 896px)
-    and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
+    and (-webkit-device-pixel-ratio : 2) and (orientation : portrait)
+{
 
 .btn{
       font-weight: bold;
@@ -27,7 +28,7 @@
   }
 
  h1{
-   font-size: 5.625rem;
+   font-size: 5rem;
  }
  h2{
    font-size: 2.5rem;
@@ -44,20 +45,20 @@
 }
 
 .middle-image{
-height: 150px;
+height: 100px;
 
 text-align: center;
 margin-bottom: 5px;
 }
 .bottom-image{
-  height: 150px;
+  height: 100px;
 
   text-align: center;
   margin-bottom: 5px;
 
 }
 .third-image{
-  height: 150px;
+  height: 100px;
 
   text-align: center;
   margin-bottom: 5px;

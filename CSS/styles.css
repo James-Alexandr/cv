@@ -4,7 +4,7 @@
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
 
- 
+
   .middle-container{
     margin: 0;
    width: 100%;
@@ -36,7 +36,7 @@
    font-size: 2rem;
  }
 .mountain-img{
-  height: 200px;
+  height: 70px;
 }
 }
 

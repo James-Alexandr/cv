@@ -4,7 +4,8 @@
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
 
-
+.btn{      font-weight: bold;
+}
   .middle-container{
     margin: 0;
    width: 100%;
@@ -44,16 +45,19 @@
 .middle-image{
 height: 150px;
 float: none;
+text-align: center;
 
 }
 .bottom-image{
   height: 150px;
   float: none;
+  text-align: center;
 
 }
 .third-image{
   height: 150px;
   float: none;
+  text-align: center;
 
 }
 
@@ -247,6 +251,7 @@ float: left;
   font-family:'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
+  font-weight: bold;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }

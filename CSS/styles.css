@@ -39,6 +39,23 @@
 .mountain-img{
   height: 100px;
 }
+
+.middle-image{
+height: 150px;
+float: none;
+
+}
+.bottom-image{
+  height: 150px;
+  float: none;
+
+}
+.third-image{
+  height: 150px;
+  float: none;
+
+}
+
 }
 
 

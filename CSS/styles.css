@@ -3,6 +3,7 @@
     and (device-width : 414px)
     and (device-height : 896px)
     and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
+
   .container-fluid{
     padding: 0%;
 
@@ -11,6 +12,7 @@
     margin: 0;
    width: 100%;
   }
+
   .skill-row{
     width: 100%;
     margin: 0;
@@ -37,7 +39,7 @@
    font-size: 5rem;
  }
 .mountain-img{
-  width: 30%;
+  height: 50%;
 }
 }
 

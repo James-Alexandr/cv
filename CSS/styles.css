@@ -1,6 +1,43 @@
 
 
 /******************* HTML elements ************************/
+@media (max-width: 500px){
+  .container-fluid{
+    padding: 3%;
+
+  }
+  .middle-container{
+    margin: 0;
+   
+  }
+  .skill-row{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+  }
+  .skill-rowWings{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+  }
+
+ h1{
+   font-size: 10rem;
+ }
+ h2{
+   font-size: 4rem;
+ }
+ h3{
+   font-size: 3rem;
+ }
+ p{
+   font-size: 2rem;
+ }
+
+}
+
 
 body{
 margin: 0;
@@ -53,6 +90,8 @@ h3{
   font-size: 2.5rem;
 
 }
+
+/******************MEDIA**********************/
 
 
 /*paragraphs*/

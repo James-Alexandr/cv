@@ -46,18 +46,20 @@
 height: 150px;
 float: none;
 text-align: center;
-
+padding-bottom: 5px;
 }
 .bottom-image{
   height: 150px;
   float: none;
   text-align: center;
+  padding-bottom: 5px;
 
 }
 .third-image{
   height: 150px;
   float: none;
   text-align: center;
+  padding-bottom: 5px;
 
 }
 

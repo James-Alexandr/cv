@@ -8,6 +8,7 @@
   .middle-container{
     margin: 0;
    width: 100%;
+   text-align: center
   }
 
   .skill-row{
@@ -36,7 +37,7 @@
    font-size: 2rem;
  }
 .mountain-img{
-  height: 70px;
+  height: 100px;
 }
 }
 

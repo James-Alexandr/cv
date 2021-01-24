@@ -43,14 +43,10 @@
 
 .middle-image{
 height: 100px;
-
-text-align: center;
 margin-bottom: 5px;
 }
 .bottom-image{
   height: 100px;
-
-  text-align: center;
   margin-bottom: 5px;
 
 }
@@ -59,7 +55,6 @@ margin-bottom: 5px;
 
   margin-right: 40px;
   margin-bottom: 5px;
-  text-align: center;
 
 }
 

@@ -1,8 +1,6 @@
 /******************* HTML elements ************************/
-@media only screen
-    and (device-width : 414px)
-    and (device-height : 896px)
-    and (-webkit-device-pixel-ratio : 2) and (orientation : portrait)
+@media only screen and (max-width: 600px)
+    and (orientation : portrait)
 {
 
 .btn{
@@ -23,7 +21,6 @@
   .skill-rowWings{
     width: 100%;
     margin: 0;
-    text-align: center;
 
   }
 
@@ -60,7 +57,7 @@ margin-bottom: 5px;
 .third-image{
   height: 100px;
 
-  text-align: center;
+  margin-right: 30px;
   margin-bottom: 5px;
 
 }
